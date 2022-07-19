@@ -72,7 +72,7 @@ function App() {
     <div>
       <Button onClick={btnhandler} style={{margin:'20px'}} variant="success">Connect Wallet</Button>
       <h3>Vote Count For Candidate 1:-{getCount1}</h3>
-      <h3>Vote Count For Candidate 1:-{getCount2}</h3>
+      <h3>Vote Count For Candidate 2:-{getCount2}</h3>
       <div className="App" style={{display:'flex',alignItems:'center',justifyContent:'space-around',marginTop:'60px'}}>
        <div >
        <Card style={{ width: '18rem' }}>
